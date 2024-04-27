@@ -31,7 +31,7 @@ export default function Updates() {
             <ul className='flex flex-col my-4'>
                 <li className='list-disc'>Added Images</li>
                 <li className='list-disc'>Added Slick</li>
-                <li className='list-disc'>Half DetailPage</li>
+                <li className='list-disc'>Added DetailPage</li>
                 <li className='list-disc'>Added Updates Page / Button</li>
             </ul>
         </div>

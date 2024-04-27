@@ -50,11 +50,11 @@ export default function Navbar({ setSearchTerm, searchTerm }) {
                 <div>
                     <Menu>
                         <Menu.Button className='flex items-center hover:bg-transparent border-2 border-[#EF0000] hover:text-[#EF0000] duration-600 transition-colors gap-1.5 bg-[#EF0000] p-2.5 text-white rounded-md'>Hesabım <FaAngleDown /> </Menu.Button>
-                        <Menu.Items className='flex flex-col absolute mt-2 bg-[#f0f0f0] p-2 rounded-md w-28 gap-y-2'>
+                        <Menu.Items className='flex flex-col absolute mt-2 bg-zinc-200 z-10 p-2 rounded-md w-28 gap-y-2'>
                             <Menu.Item className="p-2 rounded-md">
                                 {({ active }) => (
                                     <a
-                                        className={`${active && 'bg-gray-500/20 transition-colors cursor-pointer'}`}
+                                        className={`${active && 'bg-gray-300 transition-colors cursor-pointer'}`}
                                     >
                                         İlanlarım
                                     </a>
@@ -63,7 +63,7 @@ export default function Navbar({ setSearchTerm, searchTerm }) {
                             <Menu.Item className="p-2 rounded-md">
                                 {({ active }) => (
                                     <a
-                                        className={`${active && 'bg-gray-500/20 transition-colors cursor-pointer'}`}
+                                        className={`${active && 'bg-gray-300 transition-colors cursor-pointer'}`}
                                     >
                                         Ayarlar
                                     </a>

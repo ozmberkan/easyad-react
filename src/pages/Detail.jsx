@@ -92,6 +92,52 @@ const Detail = ({ data }) => {
                     </div>
                     <div className='w-[25%] bg-[#F0F0F0]/75 h-full'>
                         <div className='bg-[#EF0000] text-white p-1 text-center text-sm font-semibold rounded-t-md'>İlan Bilgileri</div>
+                        <div className='mt-2 flex flex-col gap-y-2 p-4'>
+                            <div className='font-medium h-10 text-sm  border-b flex justify-center items-center px-2'>
+                                <p className='font-bold flex h-full justify-start items-center w-1/2 '>İlan No</p>
+                                <p className='text-sm  w-1/2 h-full flex justify-end items-center font-semibold'>{ad.id}</p>
+                            </div>
+                            <div className='font-medium h-10 text-sm  border-b flex justify-center items-center px-2'>
+                                <p className='font-bold flex h-full justify-start items-center w-1/2 '>Metrekare</p>
+                                <p className='text-sm  w-1/2 h-full flex justify-end items-center font-semibold'>{ad.housing.meter}m2</p>
+                            </div>
+                            <div className='font-medium h-10 text-sm  border-b flex justify-center items-center px-2'>
+                                <p className='font-bold flex h-full justify-start items-center w-1/2 '>Oda Sayısı</p>
+                                <p className='text-sm  w-1/2 h-full flex justify-end items-center font-semibold'>{ad.housing.roomAmount}</p>
+                            </div>
+                            <div className='font-medium h-10 text-sm  border-b flex justify-center items-center px-2'>
+                                <p className='font-bold flex h-full justify-start items-center w-1/2 '>Bina Yaşı</p>
+                                <p className='text-sm  w-1/2 h-full flex justify-end items-center font-semibold '>{ad.housing.age}</p>
+                            </div>
+                            <div className='font-medium h-10 text-sm  border-b flex justify-center items-center px-2'>
+                                <p className='font-bold flex h-full justify-start items-center w-1/2 '>Isıtma</p>
+                                <p className='text-sm  w-1/2 h-full flex justify-end items-center font-semibold'>{ad.housing.heatStatus}</p>
+                            </div>
+                            <div className='font-medium h-10 text-sm  border-b flex justify-center items-center px-2'>
+                                <p className='font-bold flex h-full justify-start items-center w-1/2 '>Bulunuduğu Kat</p>
+                                <p className='text-sm  w-1/2 h-full flex justify-end items-center font-semibold'>{ad.housing.floor}</p>
+                            </div>
+                            <div className='font-medium h-10 text-sm  border-b flex justify-center items-center px-2'>
+                                <p className='font-bold flex h-full justify-start items-center w-1/2 '>Toplam Kat</p>
+                                <p className='text-sm  w-1/2 h-full flex justify-end items-center font-semibold'>{ad.housing.totalfloor}</p>
+                            </div>
+                            <div className='font-medium h-10 text-sm  border-b flex justify-center items-center px-2'>
+                                <p className='font-bold flex h-full justify-start items-center w-1/2 '>Cephe</p>
+                                <p className='text-sm  w-1/2 h-full flex justify-end items-center font-semibold'>{ad.housing.exterior}</p>
+                            </div>
+                            <div className='font-medium h-10 text-sm  border-b flex justify-center items-center px-2'>
+                                <p className='font-bold flex h-full justify-start items-center w-1/2 '>Otopark</p>
+                                <p className='text-sm  w-1/2 h-full flex justify-end items-center font-semibold'>{ad.housing.carPark}</p>
+                            </div>
+                            <div className='font-medium h-10 text-sm  border-b flex justify-center items-center px-2'>
+                                <p className='font-bold flex h-full justify-start items-center w-1/2 '>Asansör</p>
+                                <p className='text-sm  w-1/2 h-full flex justify-end items-center font-semibold'>{ad.housing.elevator}</p>
+                            </div>
+                            <div className='font-medium h-10 text-sm  flex justify-center items-center px-2'>
+                                <p className='font-bold flex h-full justify-start items-center w-1/2 '>Şehir</p>
+                                <p className='text-sm  w-1/2 h-full flex justify-end items-center font-semibold'>{ad.country.city}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className='w-full border rounded-md mt-6 h-[150px]'>

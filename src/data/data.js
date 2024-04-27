@@ -10,7 +10,7 @@ export default [
       description:
         "Çok iyi konumda olan metroya,metrobüse ve otobüs durağına çok yakın olan sıfır 1+1 Ultra Lüks 1.Sınıf İşçilik 1.Sınıf Malzeme zemin 60x120 Seramik .",
       meter: "70",
-      roomAmount: 2,
+      roomAmount: "1+1",
       age: 1,
       heatStatus: "Kombi (Doğalgaz)",
       price: 4250000,
